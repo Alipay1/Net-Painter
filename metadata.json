@@ -35,7 +35,7 @@
   },
   "kicad_version": {
     "minimum": "9.0",
-    "maximum": "9.99"
+    "maximum": "10.99"
   },
   "type": "plugin",
   "tags": [
@@ -51,3 +51,4 @@
     "sha256": ""
   }
 }
+

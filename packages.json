@@ -1,0 +1,48 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "packages": [
+    {
+      "name": "Net Painter",
+      "description": "Copy the net from one PCB object to another with two clicks. Keep the floating window open and repeat the operation effortlessly while routing.",
+      "description_full": "Net Painter is a KiCad 9 ActionPlugin that quickly copies the net from a target object (Track, Via, Pad, Zone, copper graphic) to a source object in two clicks.\n\nFeatures:\n- Two-click net copying: click source, then target.\n- Persistently floating window stays open between operations.\n- Supports toolbar button and plugin menu entry.\n- Bilingual UI (Chinese/English) with manual language override.\n- Automatically rebuilds connectivity and refills zones when needed.",
+      "identifier": "net-painter",
+      "type": "plugin",
+      "author": {
+        "name": "Alipay",
+        "contact": {
+          "web": "https://github.com/Alipay1/Net-Painter"
+        }
+      },
+      "maintainer": {
+        "name": "Alipay",
+        "contact": {
+          "web": "https://github.com/Alipay1/Net-Painter"
+        }
+      },
+      "license": "MIT",
+      "resources": {
+        "icon_256": "net_painter_icon.png"
+      },
+      "tags": [
+        "net",
+        "painter",
+        "copy-net",
+        "pcb",
+        "routing",
+        "tool"
+      ],
+      "versions": [
+        {
+          "version": "0.3.0",
+          "status": "stable",
+          "kicad_version": "9.0",
+          "kicad_version_max": "10.99",
+          "download_url": "https://github.com/Alipay1/Net-Painter/archive/refs/heads/main.zip",
+          "download_sha256": "",
+          "download_size": 128000,
+          "install_size": 256000
+        }
+      ]
+    }
+  ]
+}

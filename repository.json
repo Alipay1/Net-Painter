@@ -1,0 +1,21 @@
+{
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/repository",
+  "metadata_version": 1,
+  "name": "Net Painter Repository",
+  "description": "Repository for Net Painter KiCad plugin – copy nets between PCB objects with two clicks.",
+  "maintainer": {
+    "name": "Alipay",
+    "contact": {
+      "web": "https://github.com/Alipay1/Net-Painter"
+    }
+  },
+  "packages": {
+    "net-painter": {
+      "version": "0.3.0",
+      "metadata_url": "https://raw.githubusercontent.com/Alipay1/Net-Painter/main/metadata.json",
+      "download_url": "https://github.com/Alipay1/Net-Painter/archive/refs/heads/main.zip",
+      "install_size": 256000,
+      "download_size": 128000
+    }
+  }
+}

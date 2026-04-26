@@ -1,0 +1,53 @@
+{
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/package",
+  "metadata_version": 1,
+  "version": "0.3.0",
+  "name": "Net Painter",
+  "description": {
+    "en": "Copy the net from one PCB object to another with two clicks. Keep the floating window open and repeat the operation effortlessly while routing.",
+    "zh": "通过两次点击，把一个 PCB 对象的网络复制到另一个对象。悬浮窗常驻，适合在 PCB 布线整理时反复使用。"
+  },
+  "description_full": {
+    "en": "Net Painter is a KiCad 9 ActionPlugin that quickly copies the net from a target object (Track, Via, Pad, Zone, copper graphic) to a source object in two clicks.\n\nFeatures:\n- Two-click net copying: click source, then target.\n- Persistently floating window stays open between operations.\n- Supports toolbar button and plugin menu entry.\n- Bilingual UI (Chinese/English) with manual language override.\n- Automatically rebuilds connectivity and refills zones when needed.",
+    "zh": "Net Painter 是一个 KiCad 9 ActionPlugin，用于把对象 2 的网络快速复制到对象 1。插件启动后会打开一个常驻悬浮窗，并保持连续工作，适合在 PCB 布线整理时反复「吸网」。\n\n功能特性：\n- 两次点击完成网络复制：先点源对象，再点目标对象。\n- 悬浮窗常驻，单次成功后会自动回到下一轮等待状态。\n- 支持工具栏按钮和插件菜单两种入口。\n- 支持中英文界面，并可手动强制指定语言。\n- 源对象为 Zone 时，会在改网后自动重建连通性并重新填充。"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Alipay",
+    "contact": {
+      "web": "https://github.com/Alipay1/Net-Painter"
+    }
+  },
+  "maintainer": {
+    "name": "Alipay",
+    "contact": {
+      "web": "https://github.com/Alipay1/Net-Painter"
+    }
+  },
+  "homepage": {
+    "web": "https://github.com/Alipay1/Net-Painter"
+  },
+  "repository": {
+    "web": "https://github.com/Alipay1/Net-Painter.git"
+  },
+  "resources": {
+    "icon_256": "net_painter_icon.png"
+  },
+  "kicad_version": {
+    "minimum": "9.0",
+    "maximum": "9.99"
+  },
+  "type": "plugin",
+  "tags": [
+    "net",
+    "painter",
+    "copy-net",
+    "pcb",
+    "routing",
+    "tool"
+  ],
+  "install_location": "3rdparty/plugins",
+  "downloads": {
+    "sha256": ""
+  }
+}
